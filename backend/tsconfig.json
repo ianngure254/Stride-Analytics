@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+        "target": "ES2020",
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "ignoreDeprecations": "6.0",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmitOnError": false
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./src/**/*.d.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "src/modules/ai/ai.service.ts",
+        "src/modules/debt/debt.service.ts",
+        "src/modules/mpesa/mpesa.service.ts"
+    ]
+}
