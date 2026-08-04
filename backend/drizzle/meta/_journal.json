@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1775054312738,
+      "tag": "0000_wild_clint_barton",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1775650669467,
+      "tag": "0001_bright_phantom_reporter",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1785721528240,
+      "tag": "0002_known_doctor_octopus",
+      "breakpoints": true
+    }
+  ]
+}
